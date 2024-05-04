@@ -2,7 +2,7 @@
 
 This repo contains a PDF and resources from an archived PR that updated the **Using TileSets: Creating terrain sets (autotiling)** documentation for Godot 4. It is available here as a resource to help new users set up terrain tiles.
 
-### Outline
+### Contents
 - Creating terrain sets (autotiling)
     - Understanding how terrains work
     - Choosing a terrain mode
