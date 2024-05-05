@@ -4,6 +4,13 @@ This repo contains a PDF and resources from an archived PR that updated the **Us
 
 It contains content edited from the main Godot docs, and so is distributed here under that same license: © Copyright 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0).
 
+### Links
+Github can be weird about displaying such a long PDF, so I recommend either clicking the `Download raw file` button on the PDF page, or using `Code` -> `Download zip` from the main repo page.
+
+- [PDF of the Creating terrain sets (autotiling) manual section](./terrain_sets_docs.pdf)
+- [Godot 4 "starter" project](./starter_project/) that contains all the examples from these docs with the TileSets and terrains set up
+- [Templates](./templates/) in `png` and `svg` format
+
 ### Contents
 - Creating terrain sets (autotiling)
     - Understanding how terrains work
@@ -19,19 +26,11 @@ It contains content edited from the main Godot docs, and so is distributed here 
         - Using probabilities for multiple tiles with the same bitmask
         - Using alternative tiles for one tile with multiple bitmasks
 
-### Links
-Github can be weird about displaying such a long PDF, so I recommend either clicking the `Download raw file` button on the PDF page, or using `Code` -> `Download zip` from the main repo page.
-
-- [PDF of the Creating terrain sets (autotiling) manual section](./terrain_sets_docs.pdf)
-- [Godot 4 "starter" project](./starter_project/) that contains all the examples from these docs with the TileSets and terrains set up
-- [Templates](./templates/) in `png` and `svg` format
-
-
 ### Why this is here
 
 In 2023, I responded to a request to update the Godot 4 docs section for [Using TileSets: Creating terrain sets (autotiling)](https://docs.godotengine.org/en/latest/tutorials/2d/using_tilesets.html#creating-terrain-sets-autotiling). While I received feedback that [the PR I created](https://github.com/godotengine/godot-docs/pull/7789) had been submitted correctly, there wasn't interest in reviewing or merging it. I ended up closing the PR as it was blocking others from making edits that might be more likely to get merged.
 
-I understand this is how things go in open-source development. My PR might not have fit the goals the core team had for these docs. I have tremendous respect for all of the Godot docs maintainers -- they've done an amazing job in establishing a standard of highly accessible documentation.
+I am guessing my PR might not have fit the goals the core team had for these docs, and I have tremendous respect for all of the Godot docs maintainers -- they've done an amazing job in establishing a standard of highly accessible documentation.
 
 For a time, Godot users could still access the content in this original PR on Github as a reference. However, Github seems to have recently changed how the Sphinx (`rst`) file previews are displayed, so the images are no longer inline. And the images are particularly important for understanding these docs.
 
